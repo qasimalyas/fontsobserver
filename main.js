@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 
-	var font = new FontFaceObserver('Slabo 27px');
+	var font = new FontFaceObserver('source-code-pro');
 
 	font.load().then(function () {
 		console.log('font loaded.');
